@@ -1,0 +1,844 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 09:08:29
+* VERSION: 4.0.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 7.4.20                                |7.4.30
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.30 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: nginx/1.22.0
+DOC ROOT____________: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+LOG FILE 644________: false
+REQUEST URL_________: "https://dl1.ninjadona.com/dup-installer/main.installer.php"
+********************************************************************************
+INSTALLER INFO
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+URL_NEW_____________: "https://dl1.ninjadona.com"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/20220923_solo_[HASH]_20220923015128_archive.zip"
+ARCHIVE SIZE________: 100.64MB
+CREATED_____________: 2022-09-23 01:51:28
+WP VERSION__________: 6.0.2
+DUP VERSION_________: 4.0.0
+DB VERSION__________: 10.5.11
+DB FILE SIZE________: 7.55MB
+DB TABLES___________: 63
+DB ROWS_____________: 3267
+URL HOME____________: https://dl1.ninjadona.com
+URL CORE____________: https://dl1.ninjadona.com
+URL CONTENT_________: https://dl1.ninjadona.com/wp-content
+URL UPLOAD__________: https://dl1.ninjadona.com/wp-content/uploads
+URL PLUGINS_________: https://dl1.ninjadona.com/wp-content/plugins
+URL MU PLUGINS______: https://dl1.ninjadona.com/wp-content/mu-plugins
+URL THEMES__________: https://dl1.ninjadona.com/wp-content/themes
+PATH HOME___________: /home/dl1.ninjadona.com/public_html
+PATH ABS____________: /home/dl1.ninjadona.com/public_html
+PATH WPCONFIG_______: /home/dl1.ninjadona.com/public_html
+PATH WPCONTENT______: /home/dl1.ninjadona.com/public_html/wp-content
+PATH UPLOADS________: /home/dl1.ninjadona.com/public_html/wp-content/uploads
+PATH PLUGINS________: /home/dl1.ninjadona.com/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/dl1.ninjadona.com/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/dl1.ninjadona.com/public_html/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:woo-variation-gallery/woo-variation-gallery.php   ][ON:true ] Additional Variation Images Gallery for WooCommerce
+PLUGIN [SLUG:black-studio-tinymce-widget/black-studio-tinymce-widget.php][ON:true ] Black Studio TinyMCE Widget
+PLUGIN [SLUG:woocommerce-checkout-manager/woocommerce-checkout-manager.php][ON:true ] Checkout Fields Manager for WooCommerce
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ] Contact Form 7
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ] Duplicator Pro
+PLUGIN [SLUG:optimize-images-resizing/optimize-images-resizing.php][ON:true ] Optimize Images Resizing
+PLUGIN [SLUG:siteorigin-panels/siteorigin-panels.php           ][ON:true ] Page Builder by SiteOrigin
+PLUGIN [SLUG:wpcf7-recaptcha/wpcf7-recaptcha.php               ][ON:true ] ReCaptcha v2 for Contact Form 7
+PLUGIN [SLUG:revslider/revslider.php                           ][ON:false] Slider Revolution
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ] WooCommerce
+PLUGIN [SLUG:wp-fastest-cache/wpFastestCache.php               ][ON:false] WP Fastest Cache
+PLUGIN [SLUG:wp-mail-smtp/wp_mail_smtp.php                     ][ON:true ] WP Mail SMTP
+PLUGIN [SLUG:xt-woo-variation-swatches-pro/xt-woo-variation-swatches.php][ON:true ] XT Variation Swatches for WooCommerce Pro
+--------------------------------------
+--------------------------------------
+
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.02074]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.01468]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+TEST DUPX_Validation_test_db_connection result: passed
+TEST DUPX_Validation_test_db_version result: passed
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: passed
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: passed
+TEST DUPX_Validation_test_db_custom_queries result: passed
+TEST DUPX_Validation_test_db_supported_charset result: passed
+TEST DUPX_Validation_test_db_gtid_mode result: passed
+TEST DUPX_Validation_test_db_supported_default_charset result: passed
+TEST DUPX_Validation_test_db_case_sensitive_tables result: passed
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:08:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+RESTORE BACKUP MODE_: false
+HOME URL NEW________: "https://dl1.ninjadona.com"
+SITE URL NEW________: "https://dl1.ninjadona.com"
+CONTENT URL NEW_____: "https://dl1.ninjadona.com/wp-content"
+UPLOAD URL NEW______: "https://dl1.ninjadona.com/wp-content/uploads"
+PLUGINS URL NEW_____: "https://dl1.ninjadona.com/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://dl1.ninjadona.com/wp-content/mu-plugins"
+HOME PATH NEW_______: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+SITE PATH NEW_______: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+CONTENT PATH NEW____: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/wp-content"
+UPLOAD PATH NEW_____: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/wp-content/uploads"
+PLUGINS PATH NEW____: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+ARCHIVE OFFSET 0
+Archive just got done processing last file in list of 15691
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+Resetting permissions
+CHECK CONFG FILES IN CURRENT HOSTS
+
+EXTRACTION COMPLETE @ 09:08:57 - RUNTIME: 1.8602 sec. - Files processed: 15,181 of 15,181
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 09:08:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+KEEP USERS__________: 0
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+CHARSET FB__________: false
+CHARSET FB VAL______: ""
+COLLATE_____________: ""
+COLLATE FB__________: false
+COLLATE FB VAL______: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.5.16 -- Build Server: 10.5.11
+FILE SIZE:	dup-database__[HASH].sql (4.11MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE-GLOBAL:	
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+TABLES AND ROWS IN ARCHIVE
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    19]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:    55]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     0]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   543]
+TABLE "wp_postmeta"_____________________________________[ROWS: 1,745]
+TABLE "wp_posts"________________________________________[ROWS:   253]
+TABLE "wp_revslider_css"________________________________[ROWS:     0]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     0]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:     0]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:     0]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:     0]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_site_cache"___________________________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:   140]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    84]
+TABLE "wp_termmeta"_____________________________________[ROWS:   179]
+TABLE "wp_terms"________________________________________[ROWS:     0]
+TABLE "wp_usermeta"_____________________________________[ROWS:   110]
+TABLE "wp_users"________________________________________[ROWS:     0]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    12]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:     0]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:   126]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:     0]
+TABLE "wp_wc_product_download_directories"______________[ROWS:     0]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     0]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:     0]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     0]
+--------------------------------------
+
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 44754
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+Starting Cleanup Routine...
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	110
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    19]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     6]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:    55]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     3]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   469]
+TABLE "wp_postmeta"_____________________________________[ROWS:  1501]
+TABLE "wp_posts"________________________________________[ROWS:   274]
+TABLE "wp_revslider_css"________________________________[ROWS:   109]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     1]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:     2]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:     6]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:     2]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_site_cache"___________________________________[ROWS:     4]
+TABLE "wp_term_relationships"___________________________[ROWS:   140]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    84]
+TABLE "wp_termmeta"_____________________________________[ROWS:   179]
+TABLE "wp_terms"________________________________________[ROWS:    84]
+TABLE "wp_usermeta"_____________________________________[ROWS:   110]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    12]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    12]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:   126]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     2]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     2]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     3]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:     0]
+TABLE "wp_wc_product_download_directories"______________[ROWS:     2]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:   122]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     3]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:    31]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     4]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     2]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_wpmailsmtp_debug_events"______________________[ROWS:     0]
+TABLE "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     0]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    81]
+
+INSERT DATA RUNTIME: 0.6057 sec.
+STEP-2 COMPLETE @ 09:08:58 - RUNTIME: 0.6057 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:08:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Solo"
+url_old_______________: "https://dl1.ninjadona.com"
+url_new_______________: "https://dl1.ninjadona.com"
+siteurl_______________: "https://dl1.ninjadona.com"
+path_new______________: "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+path_old______________: "/home/dl1.ninjadona.com/public_html"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = 1], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 50
+timeOut_______________: 118000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    55][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   469][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1501][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   274][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css][0]
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css_bkp][0]
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_navigations][0]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_sliders][0]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_slides][0]
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_static_slides][0]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_site_cache"___________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_site_cache][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   140][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    84][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   179][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    84][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   110][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:   126][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_category_lookup][0]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_customer_lookup][0]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_order_product_lookup][0]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_order_stats][0]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:   122][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    31][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_order_itemmeta][0]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_order_items][0]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/dl1.ninjadona.com/public_html" =============> "/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com"
+	SEARCH[urlnd]  2:"https://dl1.ninjadona.com" =======================> "https://dl1.ninjadona.com"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpmailsmtp_debug_events"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpmailsmtp_tasks_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:63 	|	 Rows:3425 	|	 Cells:20789 
+UPDATED:	Tables:2 	|	 Rows:3 	|	 Cells:3 
+ERRORS:		0 
+RUNTIME:	0.208000 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/wp-config.php
+New htaccess file created:/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""dl1_ninjadon""
+	UPDATE DB_USER ""dl1_ninjadon""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	WP CONFIG UPDATE WP_DEBUG true
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+Installer Host Htaccess path: 
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:08:58 - RUNTIME: 0.2496 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/dl1_ninjadon_usr/data/www/dl1.ninjadona.com/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.02554]  MESSAGE:END RENDER PAGE

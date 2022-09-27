@@ -1,0 +1,10 @@
+AuthUserFile /home/barton.ninjadona.com/public_html/.htpasswds
+AuthType basic
+AuthName "Restricted Resource"
+require valid-user
+# This is the whitelisting of the ajax handler
+   <Files wp-login.php>
+     Order allow,deny
+     Allow from all
+     Satisfy any
+   </Files>
